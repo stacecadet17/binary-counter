@@ -14,6 +14,7 @@
 		0C78FC311FC14E6200C4B3B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C78FC2F1FC14E6200C4B3B8 /* LaunchScreen.storyboard */; };
 		0C78FC3C1FC14E6200C4B3B8 /* binaryCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C78FC3B1FC14E6200C4B3B8 /* binaryCounterTests.swift */; };
 		0C78FC471FC14E6200C4B3B8 /* binaryCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C78FC461FC14E6200C4B3B8 /* binaryCounterUITests.swift */; };
+		0C78FC571FC2B4B200C4B3B8 /* BinaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C78FC561FC2B4B200C4B3B8 /* BinaryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0C78FC421FC14E6200C4B3B8 /* binaryCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = binaryCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C78FC461FC14E6200C4B3B8 /* binaryCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaryCounterUITests.swift; sourceTree = "<group>"; };
 		0C78FC481FC14E6200C4B3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C78FC561FC2B4B200C4B3B8 /* BinaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		0C78FC1A1FC14E6200C4B3B8 = {
 			isa = PBXGroup;
 			children = (
+				0C78FC561FC2B4B200C4B3B8 /* BinaryTableViewCell.swift */,
 				0C78FC251FC14E6200C4B3B8 /* binaryCounter */,
 				0C78FC3A1FC14E6200C4B3B8 /* binaryCounterTests */,
 				0C78FC451FC14E6200C4B3B8 /* binaryCounterUITests */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C78FC571FC2B4B200C4B3B8 /* BinaryTableViewCell.swift in Sources */,
 				0C78FC291FC14E6200C4B3B8 /* ViewController.swift in Sources */,
 				0C78FC271FC14E6200C4B3B8 /* AppDelegate.swift in Sources */,
 			);
